@@ -1,8 +1,7 @@
 const { NULL } = require('mysql/lib/protocol/constants/types');
 const { Model, DataTypes } = require('sequelize');
-// const { DataTypes, DataTypes } = require('sequelize/types');
 
-const sequelize = require('../config/connection.js');
+const sequelize = require('../config/connection');
 
 class Category extends Model {}
 
