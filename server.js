@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = require('./routes');
 const mysql = require('mysql2');
-const sequelize = require('sequelize');
+const sequelize = require('./config/connection');
 require('dotenv').config();
 // import sequelize connection
 
